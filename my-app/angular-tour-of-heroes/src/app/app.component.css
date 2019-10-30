@@ -1,6 +1,18 @@
+body {
+    background-image: url("http://ilyakhasanov.ru/images/background/8.jpg");
+    margin: 0;
+
+}
+
 h1 {
-    font-size: 1.2em;
+    color: #000;
+    font-size: 6.5em;
     margin-bottom: 0;
+    text-align: center;
+    background-color: darkolivegreen; 
+    border-width: 10px;
+    border-style: inset;
+    border-color: olivedrab
 }
 
 h2 {
@@ -10,21 +22,27 @@ h2 {
 }
 
 nav a {
-    padding: 5px 10px;
+    padding: 5px 20%;
+    margin-left: 35px;
     text-decoration: none;
     margin-top: 10px;
     display: inline-block;
-    background-color: #eee;
+    background-color:darkolivegreen;
     border-radius: 4px;
 }
 
 nav a:visited, a:link {
-    color: #334953;
+    color: #000;
+    border-style: inset;
+    border-color: olivedrab;
+    border-width: 5px;
 }
 
 nav a:hover {
-    color: #039be5;
-    background-color: #cfd8dc;
+    color: #eee;
+    background-color:olivedrab;
+    border-style: outset;
+    border-color: olive;
 }
 
 nava.active {

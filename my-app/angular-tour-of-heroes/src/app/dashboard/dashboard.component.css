@@ -2,6 +2,7 @@
     float: left;
     padding-right: 20px;
     padding-bottom: 20px;
+    padding-left: 20px;
 }
 [class*='col-']:last-of-type {
     padding-right: 0;
@@ -15,9 +16,17 @@ a {
     box-sizing: border-box;
 }
 h3 {
-    text-align: center;
-    margin-bottom: 0;
+  background-color: darkolivegreen;
+  color: #000;
+  margin-bottom: 0;
+  max-width: 110px;
+  text-align: center;
+  margin-left: 46%;
+  border-width: 5px;
+  border-style: inset;
+  border-color: olivedrab;
 }
+
 h4 {
     position: relative;
 }
@@ -30,16 +39,22 @@ h4 {
 .module {
     padding: 20px;
     text-align: center;
-    color: #eee;
+    color: #000;
     max-height: 120px;
     min-width: 120px;
-    background-color: #3f525c;
+    background-color: darkolivegreen;
     border-radius: 2px;
+    border-style: outset;
+    border-width: 5px;
+    border-color: olivedrab;
 }
 .module:hover {
-    background-color: #eee;
+    background-color: olivedrab;
     cursor: pointer;
-    color: #607d8b;
+    color: #eee;
+    border-style: inset;
+    border-color: olive;
+    border-width: 5px;
   }
   .grid-pad {
     padding: 10px 0;

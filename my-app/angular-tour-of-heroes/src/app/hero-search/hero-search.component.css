@@ -27,12 +27,27 @@
     color: white;
   }
   #search-box {
+    border-block-color: darkolivegreen;
     width: 200px;
     height: 20px;
+    border-color: olivedrab;
+    border-style: outset;
+    border-width: 5px; 
   }
   
   
   ul.search-result {
     margin-top: 0;
     padding-left: 0;
+  }
+
+  h4 {
+    color: #000;
+    border-style: inset;
+    border-color: olivedrab;
+    border-width: 5px;
+    background-color: darkolivegreen;
+    max-width: 100px;
+    margin-top: 106px;
+    margin-bottom: 0px;
   }
